@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vehicle Loans</title>
+</head>
+<body>
+    <div id="vehicle-content">
+        <h2 style="text-align:center;font-family:serif;color:ghostwhite;background-color: olivedrab;">Vehicle Loans</h2>
+        <div class="widget-container">
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/vehicle-loan/baroda-digital-car-loan/baroda-digital-car-loan-spotlight.jpg?h=400&iar=0&w=1080&hash=A2B126D04DC96B37DAC67471E0DF0BF3" alt="hl1">
+                <h3>Baroda Digital Car Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-takeover-scheme">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/vehicle-loan/baroda-two-wheeler-loan/spotlight/two-wheeler-loan-spotlight.jpg?h=400&iar=0&w=1080&hash=71B4BAFD60781CAE43367BBCEC8A8622" alt ="hl2">
+                <h3>Baroda Two Wheeler Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-pre-approved-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/content/home-page/spotlight-banner/2024/home-loan-and-car-loan/baroda-car-loan-rev/eng/car-spotlight-english-rev.jpg?h=400&iar=0&w=1024&hash=FC5C9AFB8A72BA15AA6E970369ADB828" alt="hl3">
+                <h3>Baroda Car Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-suvidha-personal-loans">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/vehicle-loan/baroda-car-loan/spotlight/sauto-loan-spotlight.jpg?h=400&iar=0&w=1080&hash=1CF3EFB7F499C2ECF8BBEA7C4A4A976A" alt="hl4">
+                <h3>Baroda Auto Loan for Pre-owned Car</h3>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var widgets = document.querySelectorAll(".widget");
+            widgets.forEach(function(widget) {
+                widget.addEventListener("click", function() {
+                    var url = this.getAttribute("data-url");
+                    if (url) {
+                        window.location.href = url;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

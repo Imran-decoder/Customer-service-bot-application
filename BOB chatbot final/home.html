@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Loans</title>
+</head>
+<body>
+    <div id="home-content">
+        <h2 style="text-align:center;font-family:serif;color:ghostwhite;background-color: olivedrab;">Home Loans</h2>
+        <div class="widget-container">
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/home-loan/baroda-home-loan/spotlight/baroda-home-loan-spotlightbanner.jpg?h=400&iar=0&w=1080&hash=6BB8FF3E87C6AB22773144E6EC370BD9" alt="hl1">
+                <h3>Baroda Home Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-takeover-scheme">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/home-loan/baroda-home-loan-takeover-scheme/spotlight/baroda-home-loan-takeover-scheme-spotlight.jpg?h=400&iar=0&w=1080&hash=7CCA0E1D0B2B1ED2BC1C54D58AB6ABE5" alt ="hl2">
+                <h3>Baroda Home Loan Takeover Scheme</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-pre-approved-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/home-loan/baroda-pre-approved-home-loan/spotlight/baroda-pre-approved-home-loan-spotlightbanner.jpg?h=400&iar=0&w=1080&hash=D657CA665C0CE3E117D745A784B368FD" alt="hl3">
+                <h3>Baroda Pre-Approved Home Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-suvidha-personal-loans">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/home-loan/baroda-home-suvidha-personal-loans/spotlight/baroda-home-suvidha-personal-loan-spotlightbanner.jpg?h=400&iar=0&w=1080&hash=74ED8DF3693FF9B7D48F7BF579429A54" alt="hl4">
+                <h3>Baroda Home Suvidha Personal Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/credit-risk-guarantee-fund-scheme-for-low-income-housing-crgfs">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/home-loan/credit-risk-guarantee-fund-scheme-for-low-income-housing-crgfs/spotlight/credit-risk-guarantee-fund-scheme-spotlightbanner.jpg?h=400&iar=0&w=1080&hash=AA1D1FCDEB6973406EBE844E88D69B01" alt="hl5">
+                <h3>Credit Risk Guarantee Fund Scheme for Low Income Housing</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-max-savings-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/home-loan/baroda-max-savings-home-loan/spotlight/baroda-max-savings-home-loan-spotlightbanner.jpg?h=400&iar=0&w=1080&hash=E726321387CCF5B6BCB0BEF1975A8D3E" alt="hl6">
+                <h3>Baroda Max Savings Home Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/home-improvement-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/home-loan/home-improvement-loan/spotlight/home-improvement-loan-spotlightbanner.jpg?h=400&iar=0&w=1080&hash=655B8B0AADCA8C132AAED018386D5157" alt="hl7">
+                <h3>Home Improvement Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-top-up-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/home-loan/baroda-top-up-loan/spotlight/baroda-top-up-loan-spotlightbanner.jpg?h=400&iar=0&w=1080&hash=DDDC160E4F6736E35ADFE0CEF3C45BE5" alt="hl8">
+                <h3>Baroda Top Up Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-to-corporates-non-individuals">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/default/default-img.png?h=400&iar=0&w=1080&hash=441ED706A8852B97F9412835EBF65291" alt="hl9">
+                <h3>Baroda Home Loan to Corporates / Non Individuals</h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var widgets = document.querySelectorAll(".widget");
+            widgets.forEach(function(widget) {
+                widget.addEventListener("click", function() {
+                    var url = this.getAttribute("data-url");
+                    if (url) {
+                        window.location.href = url;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

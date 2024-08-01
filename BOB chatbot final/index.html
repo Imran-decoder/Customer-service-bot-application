@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bank Of Baroda Assistant</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="left-header">
+                <div class="dot" id="dot1"></div> 
+                <div class="dot" id="dot2"></div> 
+                <div class="dot" id="dot3"></div>
+                <h1 class="explore">Explore</h1> 
+            </div>
+            <div class="left-mid">
+                <div id="home" class="nav-item" data-content="home-content"><i class="fa fa-home"></i>Home</div>
+                <div id="chat" class="nav-item" data-content="chat-content"><i class="fa fa-comments"></i>Chat</div>
+                <div id="chat" class="nav-item" data-content="Advance-content"><i class="fa fa-comments"></i>Advance</div>
+                <div id="apply" class="nav-item" data-content="apply-content"><i class="fa fa-pencil"></i>Apply</div>
+                <div id="about" class="nav-item" data-content="about-content"><i class="fa fa-book"></i>About</div>
+                <div id="contact" class="nav-item" data-content="contact-content"><i class="fa fa-compass"></i>Contact</div>
+            </div>
+            <div class="left-footer"></div>
+        </div>
+        <div class="right-panel">
+            <div class="right-header">
+                <input type="text" placeholder="🔍Search..." class="search-bar">
+            </div>
+            <div class="right-section">
+                <div id="home-content" class="content-section">
+                    <div class="hero-section" style="background-color: orange;">
+                        <img src="/images/h1.jpg" alt="Bank Banner" class="hero-image">
+                        <h1>Welcome to Bank of Baroda Assistant</h1>
+                        <p style="font-size: medium;font-family:  sans-serif;color:rgb(20, 73, 68)"><b>Your trusted partner in financial growth and security. Explore our services and discover how we can help you achieve your financial goals.</b></p>
+                    </div>
+                    <div class="services-overview">
+                        <h2 style="background-color: orangered;color:beige;">Our Services</h2>
+                        <div class="services-grid">
+                            <div class="service-item">
+                                <img src="https://img.freepik.com/free-vector/economics-finance-concept-business-people-work-with-budjet-cost-control-idea-economic-analysis-money-making-business-strategy-vector-illustration-cartoon-style_613284-1178.jpg" alt="Budget Planning">
+                                <div class="service-description">
+                                    <h4>Budget Planning</h4>
+                                    <p>Our chatbot helps you create personalized budget plans to manage your expenses effectively.</p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <img src="https://iea.imgix.net/fd158318-41d2-4c89-8367-d194aa7b2def/WorldEnergyInvestment2024-shutterstock_2333511041.jpg?auto=compress%2Cformat&fit=min&q=80&rect=1591%2C133%2C2652%2C2651&w=1390&h=1389&fit=crop&fm=jpg&q=70&auto=format" alt="Investment Ideas">
+                                <div class="service-description">
+                                    <h4>Investment Ideas</h4>
+                                    <p>Get tailored investment suggestions to maximize your returns and secure your financial future.</p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <img src="https://www.iriscarbon.com/wp-content/uploads/2024/02/financialtools.jpg" alt="Financial Insights">
+                                <div class="service-description">
+                                    <h4>Financial Insights</h4>
+                                    <p>Analyzes customer data and generate insights on spending patterns, saving habits, and investment opportunities.</p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <img src="https://www.yesbank.in/content/published/api/v1.1/assets/CONT4895FA9A50894A6F80F6B92F680B0507/native/banner-mobile.png?channelToken=580bc0ffbe3a47d690505e5f6d06e1c8" alt="Personalized Advice">
+                                <div class="service-description">
+                                    <h4>Personalized Advice</h4>
+                                    <p>Receive proactive financial advice and product recommendations based on your unique financial situation.</p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <img src="https://plus.unsplash.com/premium_photo-1676983352679-38e7f54602f9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9hbnxlbnwwfHwwfHx8MA%3D%3D" alt="Loans">
+                                <div class="service-description">
+                                    <h4>Loan Inquiry</h4>
+                                    <p>Find the right loan for your needs, from home to personal loans. We offer competitive rates and flexible terms.</p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <img src="https://img.freepik.com/free-vector/always-open-24-hour-help-assistance-template-communication-vector_1017-48468.jpg" alt="24/7 Availability">
+                                <div class="service-description">
+                                    <h4>24/7 Availability</h4>
+                                    <p>Available round the clock to assist you anytime, ensuring that you always have the support you need.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-section">
+                        <h3>Powered By</h3>
+                        <br>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTONTT_aRqCbF2K1b6HQSpqqZpbGbhpvzBPww&s" alt="azure ai" height="100">
+                        <br>
+                        <br>
+                        <p><b>Azure AI by Microsoft</b></p>
+                    </div>
+                </div>
+
+                <div id="chat-content" class="content-section chat-section">
+                    <iframe src="https://trybobservice.azurewebsites.net/" class="chat-iframe"></iframe>
+                </div>
+                <div id="Advance-content" class="content-section chat-section">
+                    <iframe src="https://bobadvisor.azurewebsites.net/" class="chat-iframe"></iframe>
+                </div>
+                <div id="apply-content" class="content-section">
+                    <h2 style="text-align:center;font-family:serif;color:ghostwhite;background-color: olivedrab;">Apply for Loan Services</h2>
+                    <div class="widget-container">
+                        
+                        <div class="widget" data-url="home.html">
+                            <img src="https://img.freepik.com/premium-photo/big-american-house-generative-ai_170984-9624.jpg" alt="Home Loans">
+                            <h3>Home Loans</h3>
+                        </div>
+                        <div class="widget" data-url="vehicle.html">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg/1200px-2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg" alt="Car Loans">
+                            <h3>Vehicle Loans</h3>
+                        </div>
+                        <div class="widget" data-url="edu.html">
+                            <img src="https://www.avanse.com/blogs/images/10feb-blog-2023.jpg" alt="Education Loans">
+                            <h3>Education Loans</h3>
+                        </div>
+                        <div class="widget" data-url="personal.html">
+                            <img src="https://img.freepik.com/free-photo/smiling-male-entrepreneur-holding-laptop-sitting-armchair_1262-12390.jpg" alt="Personal Loans">
+                            <h3>Personal Loans</h3>
+                        </div>
+                        <div class="widget" data-url="other.html">
+                            <img src="https://vaishyasamajpatsanstha.in/wp-content/uploads/2020/08/loan-new.jpg" alt="Other Loans">
+                            <h3>Other Loans</h3>
+                        </div>
+                        <div class="widget" data-url="gold.html">
+                            <img src="https://www.mecmining.com.au/wp-content/uploads/2017/09/GOLD.jpg" alt="Gold">
+                            <h3>Gold Loans</h3>
+                        </div>
+                        <div class="widget" data-url="dp.html">
+                            <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201912/defence_generic_660_241219034757.jpg" alt="Defence Personnel">
+                            <h3> Baroda Yoddha loans for Defence Personnel</h3>
+                        </div>
+                        <div class="widget" data-url="mortgage.html">
+                            <img src="https://paytmblogfinal.wpengine.com/wp-content/uploads/2023/10/Blog_Paytm_Mortgage-Loan-How-to-Apply-Interest-Rate-1-800x500.jpg" alt="Mortgage">
+                            <h3>Mortgage Loans</h3>
+                        </div>
+                        <div class="widget" data-url="fintech.html">
+                            <img src="https://thenfapost.com/wp-content/uploads/2019/09/Fintech.jpg" alt="Fintech">
+                            <h3>Fintech</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="about-content" class="content-section">About Us Page</div>
+                <div id="contact-content" class="content-section">Contact Us : <br> PLEASE LOOK AT RIGHT BOTTOM<!-- Start of sideproject Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=8dc40661-0f86-4e20-8c41-0d2c9ca20ff8"> </script><!-- End of sideproject Zendesk Widget script -->
+                 <P>IT IS ZENDESK'S CRM(CUSTOMER RELATIONSHIP MANAGEMENT) SYSTEM APPLICATION </P></div>
+                <iframe id="content-frame" style="width: 100%; height: 100%; border: none; display: none;"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

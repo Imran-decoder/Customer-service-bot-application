@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Loans</title>
+</head>
+<body>
+    <div id="dp-content">
+        <h2 style="text-align:center;font-family:serif;color:ghostwhite;background-color: olivedrab;">Defence Personnel Loans</h2>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/credit-risk-guarantee-fund-scheme-for-low-income-housing-crgfs">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/yoddha-loans/thumbnail-image/home-loan-thumbnail.jpg" alt="hl5">
+                <h3>Baroda Yoddha Home Loan for Defence Personnel</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-max-savings-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/yoddha-loans/thumbnail-image/auto-loan-thumbnail.jpg" alt="hl6">
+                <h3>Baroda Yoddha Auto Loan for Defence Personnel</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/home-improvement-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/yoddha-loans/thumbnail-image/two-wheeler-loan-thumbnail.jpg" alt="hl7">
+                <h3>Baroda Yoddha Two-Wheeler Loan for Defence Personnel</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-top-up-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/default/thumbnail-default-img.jpg" alt="hl8">
+                <h3>Baroda Top Up LoanBaroda Yoddha Loan to Defence Pension</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-to-corporates-non-individuals">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/yoddha-loans/thumbnail-image/education-loan-thumbnail.jpg" alt="hl9">
+                <h3>Baroda Yoddha Education Loans (all variants)</h3>
+            </div>
+        
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var widgets = document.querySelectorAll(".widget");
+            widgets.forEach(function(widget) {
+                widget.addEventListener("click", function() {
+                    var url = this.getAttribute("data-url");
+                    if (url) {
+                        window.location.href = url;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

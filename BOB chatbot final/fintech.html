@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Loans</title>
+</head>
+<body>
+    <div id="fintech-content">
+        <h2 style="text-align:center;font-family:serif;color:ghostwhite;background-color: olivedrab;">Fintech </h2>
+        <div class="widget-container">
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/fintech/baroda-overdraft-for-e-commerce/thumbnail-image/baroda-overdraft-for-ecommerce-thumbnail.jpg" alt="hl1">
+                <h3>Baroda Overdraft for E-commerce Business (Amazon/Flipkart)</h3>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var widgets = document.querySelectorAll(".widget");
+            widgets.forEach(function(widget) {
+                widget.addEventListener("click", function() {
+                    var url = this.getAttribute("data-url");
+                    if (url) {
+                        window.location.href = url;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

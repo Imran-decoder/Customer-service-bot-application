@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Loans</title>
+</head>
+<body>
+    <div id="edu-content">
+        <h2 style="text-align:center;font-family:serif;color:ghostwhite;background-color: olivedrab;">Education Loans</h2>
+        <div class="widget-container">
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-to-corporates-non-individuals">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/other-services/ecs/spotlight/ecs-spotlightbanner.jpg" alt="hl9">
+                <h3>Baroda Digital Education Loan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/baroda-vidya/thumbnail-image/baroda-vidya-thumbnail.jpg" alt="l1">
+                <h3>Baroda Vidya</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-takeover-scheme">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/baroda-gyan/thumbnail-image/baroda-gyan-thumbnail.jpg" alt ="l2">
+                <h3>Baroda Gyan</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-pre-approved-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/baroda-scholar/spotlight/baroda-scholar-spotlightbanner.jpg" alt="l3">
+                <h3>Baroda Scholar</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-suvidha-personal-loans">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/baroda-education-loan-to-students-of-premier-institutions/thumbnail-image/baroda-education-loan-to-students-of-premier-institutions-thumbnail.jpg" alt="l4">
+                <h3>Baroda Education Loan to Students of Premier..</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/credit-risk-guarantee-fund-scheme-for-low-income-housing-crgfs">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/skill-loan-scheme/thumbnail-image/skill-loan-scheme-thumbnail.jpg" alt="l5">
+                <h3>Skill Loan Scheme</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-max-savings-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/baroda-vidya/thumbnail-image/baroda-vidya-thumbnail.jpg" alt="l6">
+                <h3>Vidya Lakshmi Portal</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/home-improvement-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/central-scheme-of-interest-subsidy-for-education-loans/thumbnail-image/government-of-india-interest-subsidy-schemes-for-education-loan-thumbnail.jpg" alt="l7">
+                <h3>Government of India Interest Subsidy Schemes for..</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-top-up-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/baroda-education-loan-for-edp-being-offered-by-premier-institutions-in-india/thumbnail-image/baroda-education-loan-for-edp-thumbnail.jpg" alt="l8">
+                <h3>Baroda Education Loan for EDP being offered by Premier..</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-to-corporates-non-individuals">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/baroda-education-loans-for-edp-being-offered-by-premier-institutions-abroad/thumbnail-image/baroda-education-loans-for-edp-thumbnail.jpg" alt="l9">
+                <h3>Baroda Education Loans for EDP being offered by Premier..</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-to-corporates-non-individuals">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/education-loan/higher-education-skill-development-guarantee-scheme-delhi-students/thumbnail-image/higher-education-skill-devp-guarantee-scheme-for-delhi-students-thumbnail.jpg" alt="l9">
+                <h3>Higher Education and Skill Development Guarantee</h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var widgets = document.querySelectorAll(".widget");
+            widgets.forEach(function(widget) {
+                widget.addEventListener("click", function() {
+                    var url = this.getAttribute("data-url");
+                    if (url) {
+                        window.location.href = url;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

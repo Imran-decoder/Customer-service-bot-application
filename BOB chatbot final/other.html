@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Loans</title>
+</head>
+<body>
+    <div id="other-content">
+        <h2 style="text-align:center;font-family:serif;color:ghostwhite;background-color: olivedrab;">Other Loans</h2>
+        <div class="widget-container">
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/content/home-page/spotlight-banner/2024/rooftop-solar-rev/revised/sg-desktop-380x170-eng.jpg" alt="hl1">
+                <h3>PM-Surya Ghar Yojana-Composite</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-takeover-scheme">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/other-loans/loan-for-public-issues-ipo/thumbnail-image/loan-for-public-issues-ipo-thumbnail2.jpg" alt ="hl2">
+                <h3>Loan for Public Issues-IPO</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-pre-approved-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/content/home-page/spotlight-banner/2024/surya-ghar/thumbnails/sg-desktop-380x170-eng-c.jpg" alt="hl3">
+                <h3>PM-Surya Ghar Yojana -Standalone</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-suvidha-personal-loans">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/other-loans/baroda-ashray-reverse-mortgage-loan/thumbnail-image/baroda-other-loans-thumbnail.jpg" alt="hl4">
+                <h3>Baroda Ashray (Reverse Mortgage Loan)</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/credit-risk-guarantee-fund-scheme-for-low-income-housing-crgfs">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/other-loans/advance-national-savings-certificates-or-kisan-vikas-patra/thumbnail-image/baroda-other-loans-thumbnail.jpg" alt="hl5">
+                <h3>Baroda Advance Against Securities (Kisan Vikas Patra /..</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-max-savings-home-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/other-loans/commission-agents-loan-arthias/spotlight/commission-agents-loan-spotlightbanner.jpg" alt="hl6">
+                <h3>Commission Agents Loan Arthias</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/home-improvement-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/other-loans/advance-against-the-security-of-life-insurance-policies/thumbnail-image/baroda-other-loans-thumbnail.jpg" alt="hl7">
+                <h3>Baroda Advance Against Securities( Life Insurance..</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-top-up-loan">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/personal-banking/loans/other-loans/advance-against-the-security-of-relief-bonds-government-bonds/spotlight/baroda-other-loans-spotlightbanner.jpg" alt="hl8">
+                <h3>Baroda Advance against the securities (Relief Bonds..</h3>
+            </div>
+            <div class="widget" data-url="https://www.bankofbaroda.in/personal-banking/loans/home-loan/baroda-home-loan-to-corporates-non-individuals">
+                <img src="https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/default/thumbnail-default-img.jpg" alt="hl9">
+                <h3>Baroda Advance Against Securities (National Savings..</h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var widgets = document.querySelectorAll(".widget");
+            widgets.forEach(function(widget) {
+                widget.addEventListener("click", function() {
+                    var url = this.getAttribute("data-url");
+                    if (url) {
+                        window.location.href = url;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
