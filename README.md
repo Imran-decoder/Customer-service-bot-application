@@ -142,6 +142,7 @@ Contact
 For any questions or suggestions, feel free to contact me at mimran.a10301@gmail.com.
 
 Architecture:
+
 ![Alt text](https://learn.microsoft.com/en-us/azure/search/media/retrieval-augmented-generation-overview/architecture-diagram.png#lightbox)
 Screenshots:
 ![WhatsApp Image 2024-08-01 at 7 23 50 PM](https://github.com/user-attachments/assets/129777ab-115c-441c-bdbb-679c537775ae)
